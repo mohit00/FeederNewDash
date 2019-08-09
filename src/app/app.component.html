@@ -1,0 +1,70 @@
+ 
+<app-header *ngIf ="showNotFullScreen"></app-header>
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side" style ="    width: 233px;" *ngIf ="showNotFullScreen">
+      <div style ="    width: 100%;
+      height: 100%;
+      /* color: white; */;float: left;
+      background: #eeeeee;" class ="me">
+        <button mat-button  >
+                <i class="material-icons">
+                        home
+                        </i><span>Dashboard</span> 
+            
+            </button>
+            <button mat-button ><i class="material-icons">
+                view_module
+                </i>
+                <span>Feeders</span> 
+                
+                </button>
+                <button mat-button ><i class="material-icons">
+                    work
+                    </i>
+                    <span>Feeders Details</span> 
+
+                    </button>
+                    <button mat-button ><i class="material-icons">
+                        description
+                        </i>
+                        <span>MIS Reports</span> 
+
+                        </button>
+                        <button mat-button ><i class="material-icons">
+                            chrome_reader_mode
+
+                            </i>
+                            <span>SAIFI -SAIDI</span> 
+
+                            
+                            </button>
+                            <button mat-button ><i class="material-icons">
+                                event
+                                </i>
+                                <span>Substation Details</span> 
+
+                                </button>
+                                <button mat-button ><img style="width:10% ; float:left" src ="/assets/img/logo_uppcl.png">
+                                    <span>RAPDRP DASHBOARD</span> 
+
+                                    </button>
+                                    <button mat-button ><i class="material-icons">
+                                        power_input
+                                        </i>
+                                        <span>Poert Outage Roaster</span> 
+
+                                        </button>
+                                        <button mat-button ><i class="material-icons">
+                                            description
+                                            </i>
+                                            <span>NOC</span> 
+
+                                            </button>
+                                          </div>
+                                                                         
+           
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+ <router-outlet></router-outlet>
+</div>

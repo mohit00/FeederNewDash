@@ -1,0 +1,32 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+/* You can add global styles to this file, and also import other style files */
+html{
+    height:100%;
+    width:100%
+}
+ 
+ 
+   
+body, a, input, .help-block {
+    color: #fff;
+    text-shadow: 0 0 3px rgba(255,255,255,0.4);
+}
+body, button, input, textarea, select, .btn {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    // background-image: url("/assets/img/stock-vector-uttar-pradesh-administrative-map-328258022.jpg");
+
+    background-image: url("/assets/img/logo_uppcl.png");
+
+    // background-image: url("/assets/img/lights.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  
+    margin: 0;
+    font-family: 'open-sans-light', sans-serif;
+    font-size: 12px;
+    opacity: .9;
+    
+}
