@@ -25,7 +25,7 @@
     "@types/d3": "^5.7.2",
     "chart.js": "^2.8.0",
     "chartjs-plugin-datalabels": "^0.6.0",
-    "d3": "^5.9.7",
+    "d3": "^7.6.1",
     "ng-circle-progress": "^1.4.1",
     "ng2-charts": "^2.3.0",
     "rxjs": "~6.4.0",
